@@ -1,1 +1,7 @@
-document.write('<p>reactical<strong>!!!</strong></p>');
+class Index {
+  write() {
+    document.write('<p>reactical<em>!!!!!!!</em></p>');
+  }
+}
+
+(new Index()).write();
