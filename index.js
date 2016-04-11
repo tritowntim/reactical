@@ -1,7 +1,3 @@
-class Index {
-  write() {
-    document.write('<p>reactical<em>!!!!!!!</em></p>');
-  }
-}
+import Month from './app/Month';
 
-(new Index()).write();
+(new Month()).render();
