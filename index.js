@@ -1,3 +1,6 @@
+import React from 'react';
+import { render } from 'react-dom';
+
 import Month from './app/Month';
 
-(new Month()).render();
+render(<Month name={'April'} />, document.getElementById('app'));

@@ -1,6 +1,12 @@
-class Month {
+import React, { Component } from 'react';
+
+class Month extends Component {
   render() {
-    document.write('month');
+    return (
+      <div>
+        <p>{this.props.name}</p>
+      </div>
+    );
   }
 }
 
